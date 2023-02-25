@@ -1,23 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T05:29:06.907Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Ib2TDC_C2gwLSayBS0Zb" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-25T05:37:20.643Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="JAAncobRgx_WRVjo2oMb" version="20.8.23" type="github">
   <diagram name="Página-1" id="XRYuTEJrCAebDalvnkAP">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HSlJ_Mj3p_Wayl314ce3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HSlJ_Mj3p_Wayl314ce3-3" target="HSlJ_Mj3p_Wayl314ce3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HSlJ_Mj3p_Wayl314ce3-3" value="Adm" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="340" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HSlJ_Mj3p_Wayl314ce3-4" value="Elevador" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="254" y="230" width="160" height="86" as="geometry" />
+          <mxGeometry x="254" y="170" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="HSlJ_Mj3p_Wayl314ce3-5" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HSlJ_Mj3p_Wayl314ce3-4">
+        <mxCell id="HSlJ_Mj3p_Wayl314ce3-18" value="projeto_antigo: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HSlJ_Mj3p_Wayl314ce3-4">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HSlJ_Mj3p_Wayl314ce3-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="HSlJ_Mj3p_Wayl314ce3-4">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        <mxCell id="HSlJ_Mj3p_Wayl314ce3-5" value="projeto_novo: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HSlJ_Mj3p_Wayl314ce3-4">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HSlJ_Mj3p_Wayl314ce3-7" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HSlJ_Mj3p_Wayl314ce3-4">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="HSlJ_Mj3p_Wayl314ce3-16" value="cliente: str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HSlJ_Mj3p_Wayl314ce3-4">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HSlJ_Mj3p_Wayl314ce3-17" value="endereco: str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HSlJ_Mj3p_Wayl314ce3-4">
+          <mxGeometry y="104" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
