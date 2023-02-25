@@ -1,74 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T11:11:22.623Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="SJTBzSXeWOOouo_-BLij" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-25T11:16:23.347Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Cr0Qyf5J7_koxMXwKbrB" version="20.8.23" type="github">
   <diagram name="Página-1" id="gMzLXXAR-y8SjcTsmRrf">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-JG2YX_-zw_WIraSack9-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-JG2YX_-zw_WIraSack9-32" target="-JG2YX_-zw_WIraSack9-18">
+        <mxCell id="-JG2YX_-zw_WIraSack9-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-JG2YX_-zw_WIraSack9-32" target="-JG2YX_-zw_WIraSack9-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="280" y="422" />
+              <mxPoint x="120" y="355" />
+              <mxPoint x="280" y="355" />
               <mxPoint x="280" y="288" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-JG2YX_-zw_WIraSack9-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-JG2YX_-zw_WIraSack9-32" target="-JG2YX_-zw_WIraSack9-14">
+        <mxCell id="-JG2YX_-zw_WIraSack9-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-JG2YX_-zw_WIraSack9-32" target="-JG2YX_-zw_WIraSack9-14">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="310" y="450" />
-              <mxPoint x="310" y="410" />
+              <mxPoint x="148" y="390" />
+              <mxPoint x="290" y="390" />
+              <mxPoint x="290" y="360" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-JG2YX_-zw_WIraSack9-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-JG2YX_-zw_WIraSack9-32" target="-JG2YX_-zw_WIraSack9-16">
+        <mxCell id="-JG2YX_-zw_WIraSack9-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-JG2YX_-zw_WIraSack9-32" target="-JG2YX_-zw_WIraSack9-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-JG2YX_-zw_WIraSack9-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-JG2YX_-zw_WIraSack9-32" target="-JG2YX_-zw_WIraSack9-15">
+        <mxCell id="-JG2YX_-zw_WIraSack9-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-JG2YX_-zw_WIraSack9-32" target="-JG2YX_-zw_WIraSack9-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-JG2YX_-zw_WIraSack9-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-JG2YX_-zw_WIraSack9-32" target="-JG2YX_-zw_WIraSack9-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-JG2YX_-zw_WIraSack9-32" value="User" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="80" y="410" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-JG2YX_-zw_WIraSack9-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-JG2YX_-zw_WIraSack9-31" target="-JG2YX_-zw_WIraSack9-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="-JG2YX_-zw_WIraSack9-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-JG2YX_-zw_WIraSack9-31" target="-JG2YX_-zw_WIraSack9-32">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="30" y="130" />
+              <mxPoint x="30" y="80" />
               <mxPoint x="30" y="450" />
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="-JG2YX_-zw_WIraSack9-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-JG2YX_-zw_WIraSack9-31" target="-JG2YX_-zw_WIraSack9-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-JG2YX_-zw_WIraSack9-31" value="Adm" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="80" y="90" width="80" height="80" as="geometry" />
+          <mxGeometry x="80" y="40" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-JG2YX_-zw_WIraSack9-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-JG2YX_-zw_WIraSack9-1" target="-JG2YX_-zw_WIraSack9-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-JG2YX_-zw_WIraSack9-1" value="Elevador" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="60" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-JG2YX_-zw_WIraSack9-4" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="105" y="100" width="30" height="60" as="geometry" />
+          <mxGeometry x="105" y="50" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-JG2YX_-zw_WIraSack9-5" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="105" y="420" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-JG2YX_-zw_WIraSack9-14" value="Ponto" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="370" width="120" height="80" as="geometry" />
+          <mxGeometry x="340" y="320" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-JG2YX_-zw_WIraSack9-15" value="Ocorrência em Obra" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="670" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="-JG2YX_-zw_WIraSack9-16" value="Análise de Risco" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="520" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-JG2YX_-zw_WIraSack9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-JG2YX_-zw_WIraSack9-17" target="-JG2YX_-zw_WIraSack9-1">
+        <mxCell id="-JG2YX_-zw_WIraSack9-16" value="Análise de Risco" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-JG2YX_-zw_WIraSack9-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-JG2YX_-zw_WIraSack9-17" target="-JG2YX_-zw_WIraSack9-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-JG2YX_-zw_WIraSack9-17" value="Cadastro" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="60" width="120" height="80" as="geometry" />
+          <mxGeometry x="60" y="160" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-JG2YX_-zw_WIraSack9-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-JG2YX_-zw_WIraSack9-18" target="-JG2YX_-zw_WIraSack9-39">
           <mxGeometry relative="1" as="geometry" />
@@ -108,6 +113,9 @@
         </mxCell>
         <mxCell id="-JG2YX_-zw_WIraSack9-49" value="Pronto&amp;nbsp;&lt;br&gt;SAIS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="270" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-JG2YX_-zw_WIraSack9-52" value="Check List" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="620" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
