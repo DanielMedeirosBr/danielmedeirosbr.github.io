@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T11:51:35.575Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="EHKhq3VTaY-rWFh5sY86" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-25T11:53:22.731Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="m8p3j8MwAiU-gYMBjgcL" version="20.8.23" type="github">
   <diagram name="Página-1" id="gMzLXXAR-y8SjcTsmRrf">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -47,12 +47,6 @@
         <mxCell id="-JG2YX_-zw_WIraSack9-31" value="Adm" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="79" y="60" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-JG2YX_-zw_WIraSack9-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-JG2YX_-zw_WIraSack9-1" target="-JG2YX_-zw_WIraSack9-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-JG2YX_-zw_WIraSack9-1" value="Elevador" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="59" y="300" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="-JG2YX_-zw_WIraSack9-4" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="104" y="70" width="30" height="60" as="geometry" />
         </mxCell>
@@ -68,7 +62,7 @@
         <mxCell id="-JG2YX_-zw_WIraSack9-16" value="Análise de Risco" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="339" y="440" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-JG2YX_-zw_WIraSack9-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-JG2YX_-zw_WIraSack9-17" target="-JG2YX_-zw_WIraSack9-1">
+        <mxCell id="-JG2YX_-zw_WIraSack9-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-JG2YX_-zw_WIraSack9-17" target="-JG2YX_-zw_WIraSack9-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-JG2YX_-zw_WIraSack9-17" value="Cadastro" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -115,6 +109,12 @@
         </mxCell>
         <mxCell id="-JG2YX_-zw_WIraSack9-52" value="Check List" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="339" y="640" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-JG2YX_-zw_WIraSack9-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-JG2YX_-zw_WIraSack9-60" target="-JG2YX_-zw_WIraSack9-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-JG2YX_-zw_WIraSack9-60" value="Elevador" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="89" y="280" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
