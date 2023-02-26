@@ -1,0 +1,122 @@
+import tkinter as tk
+from tkinter import messagebox
+import sqlite3
+
+
+conexao = sqlite3.connect('bd_elevadores.db')
+
+# c = conexao.cursor()
+#
+# c.execute('''CREATE TABLE elevadores (
+#     projeto int,
+#     numero int,
+#     cliente text,
+#     endereco text,
+#     equipamento text,
+#     paradas text,
+#     passageiros txt
+#     )
+# ''')
+# conexao.commit()
+#
+# conexao.close()
+
+# numero = numero novo do equipamento
+# projeto = numero antigo do elevador
+
+
+def cadastrar_elevador():
+    conexao = sqlite3.connect('bd_elevadores.db')
+
+    c = conexao.cursor()
+
+    c.execute(' INSERT INTO elevadores VALUES (:projeto, :numero, :cliente, :endereco, :equipamento, :paradas, :passageiros)',
+              {
+                  'projeto': entry_projeto.get(),
+                  'numero': entry_numero.get(),
+                  'cliente': entry_cliente.get(),
+                  'endereco': entry_endereco.get(),
+                  'equipamento': entry_equipamento.get(),
+                  'paradas': entry_paradas.get(),
+                  'passageiros': entry_passageiros.get()
+              }
+              )
+    conexao.commit()
+
+    conexao.close()
+
+    messagebox.showinfo("Sucesso!", "Elevador Cadastrado com sucesso.")
+
+    entry_projeto.delete(0, "end")
+    entry_numero.delete(0, "end")
+    entry_cliente.delete(0, "end")
+    entry_endereco.delete(0, "end")
+    entry_equipamento.delete(0, "end")
+    entry_paradas.delete(0, "end")
+    entry_passageiros.delete(0, "end")
+
+
+def gerar_relatorio():
+    pass
+
+
+janela = tk.Tk()
+janela.title('Elevadores da ElevAção')
+
+#Labels
+
+label_projeto = tk.Label(janela, text='Projeto')
+label_projeto.grid(row=0, column=0, padx=10, pady=10)
+
+label_numero = tk.Label(janela, text='Número novo')
+label_numero.grid(row=1, column=0, padx=10, pady=10)
+
+label_cliente = tk.Label(janela, text='Cliente')
+label_cliente.grid(row=2, column=0, padx=10, pady=10)
+
+label_endereco = tk.Label(janela, text='Endereco')
+label_endereco.grid(row=3, column=0, padx=10, pady=10)
+
+label_equipamento = tk.Label(janela, text='Equipamento')
+label_equipamento.grid(row=4, column=0, padx=10, pady=10)
+
+label_paradas = tk.Label(janela, text='Paradas')
+label_paradas.grid(row=5, column=0, padx=10, pady=10)
+
+label_passageiros = tk.Label(janela, text='Passageiros')
+label_passageiros.grid(row=6, column=0, padx=10, pady=10)
+
+# Entrys:
+
+entry_projeto = tk.Entry(janela, text='Projeto', width =30)
+entry_projeto.grid(row=0, column=1, padx=10, pady=10)
+
+entry_numero = tk.Entry(janela, text='Número novo', width =30)
+entry_numero.grid(row=1, column=1, padx=10, pady=10)
+
+entry_cliente = tk.Entry(janela, text='Cliente', width =30)
+entry_cliente.grid(row=2, column=1, padx=10, pady=10)
+
+entry_endereco = tk.Entry(janela, text='Endereco', width =30)
+entry_endereco.grid(row=3, column=1, padx=10, pady=10)
+
+entry_equipamento = tk.Entry(janela, text='Equipamento', width =30)
+entry_equipamento.grid(row=4, column=1, padx=10, pady=10)
+
+entry_paradas = tk.Entry(janela, text='Paradas', width =30)
+entry_paradas.grid(row=5, column=1, padx=10, pady=10)
+
+entry_passageiros = tk.Entry(janela, text='Passageiros', width =30)
+entry_passageiros.grid(row=6, column=1, padx=10, pady=10)
+
+# Botôes:
+
+botao_cadastrar = tk.Button(janela, text='Cadastrar Elevador', command = cadastrar_elevador, width =30)
+botao_cadastrar.grid(row=7, column=0, padx=10, pady=10, columnspan=2)
+
+botao_relatorio = tk.Button(janela, text='Gerar Relatório', command = gerar_relatorio, width =30)
+botao_relatorio.grid(row=8, column=0, padx=10, pady=10, columnspan=2)
+
+
+janela.mainloop()
+
