@@ -1,0 +1,130 @@
+import sqlite3
+from tkinter import *
+root = Tk()
+root.title("Fase 1")
+root.geometry("400x600")
+
+# def create_DB():
+#     conn = sqlite3.connect("MyDB.db")
+#     cursor = conn.cursor()
+#     conn.execute("""CREATE TABLE IF NOT EXISTS TestDB (var1 integer, var2 integer)""")
+#     conn.commit()
+#     conn.close()
+
+def get_var():
+    conn = sqlite3.connect("bd_elevadores.db")
+    cursor = conn.cursor()
+
+    conn.execute('SELECT FROM projeto ')
+
+    conn.execute("INSERT INTO elevadores VALUES (:projeto, :numero, :cliente, :endereco, :equipamento, :paradas, :passageiros, :conferir, :teste, :guias, :gabarito, :rodada, :cwcab, :plataforma, :suportes, :topo, :tracionar, :batentes, :portas, :sinal, :info, :poco, :operador, :fiacaocab, :acabamento, :automatico, :regulagem, :check, :sais)", {
+        'projeto':'projeto',
+        'numero': 'numero',
+        'cliente': 'cliente',
+        'endereco': 'endereco',
+        'equipamento': 'equipamento',
+        'paradas': 'paradas',
+        'passageiros': 'passageiros',
+        'conferir': conferir.get(),
+        'teste': teste.get(),
+        'guias': guias.get(),
+        'gabarito': gabarito.get(),
+        'rodada': rodada.get(),
+        'cwcab': cwcab.get(),
+        'plataforma':plataforma.get(),
+        'suportes' :suportes.get(),
+        'topo' :topo.get(),
+        'tracionar' :tracionar.get(),
+        'batentes' :batentes.get(),
+        'portas': portas.get(),
+        'sinal': sinal.get(),
+        'info': info.get(),
+        'poco': poco.get(),
+        'operador': operador.get(),
+        'fiacaocab': fiacaocab.get(),
+        'acabamento': acabamento.get(),
+        'automatico': automatico.get(),
+        'regulagem': regulagem.get(),
+        'check': check.get(),
+        'sais': sais.get(),
+    }
+                 )
+    delete = 'DELETE FROM elevadores WHERE projeto = ?'
+    tend = 5
+    conn.execute(delete, str(tend))
+    conn.commit()
+    conn.close()
+
+
+btn1 = Button(root, text = "Atualizar", command = get_var).pack(anchor = W)
+
+
+conferir = IntVar()
+Checkbutton(root, text = "Conferir material e Inex", variable = conferir).place(x = 20,y = 20)
+
+teste = IntVar()
+Checkbutton(root, text = "Realizar o teste do fusível mecânico", variable = teste).place(x = 20, y = 40)
+
+guias = IntVar()
+Checkbutton(root, text = "Colocar as guias no poço", variable = guias).place(x = 20, y = 60)
+
+gabarito = IntVar()
+Checkbutton(root, text = "Instalar gabarito de prumada", variable = gabarito).place(x = 20, y = 80)
+
+rodada = IntVar()
+Checkbutton(root, text = "Fazer a primeira rodada", variable = rodada).place(x = 20, y = 100)
+
+cwcab= IntVar()
+Checkbutton(root, text = "Instalar contrapeso e cabina", variable = cwcab).place(x = 20, y = 120)
+
+plataforma = IntVar()
+Checkbutton(root, text = "Preparar a cabina como plataforma de trabalho", variable = plataforma).place(x = 20, y = 140)
+
+suportes= IntVar()
+Checkbutton(root, text = "Instalar os demais suportes", variable = suportes).place(x = 20, y = 160)
+
+topo = IntVar()
+Checkbutton(root, text = "Instalar os itens do topo da caixa", variable = topo).place(x = 20, y = 180)
+
+tracionar = IntVar()
+Checkbutton(root, text = "Tracionar o elevador", variable = tracionar).place(x = 20, y = 200)
+
+batentes = IntVar()
+Checkbutton(root, text = "Instalar os batentes", variable = batentes).place(x = 20, y = 220)
+
+# Escrever Fase 2 aqui
+
+portas = IntVar()
+Checkbutton(root, text = "Instalar barras e portas", variable = portas).place(x = 20, y = 300)
+
+sinal = IntVar()
+Checkbutton(root, text = "Descer a fiação e instalar a sinalização", variable = sinal).place(x = 20, y = 320)
+
+info = IntVar()
+Checkbutton(root, text = "Instalar a informação de caixa", variable = info).place(x = 20, y = 340)
+
+poco = IntVar()
+Checkbutton(root, text = "Finalizar o fundo do poço", variable = poco).place(x = 20, y = 360)
+
+operador = IntVar()
+Checkbutton(root, text = "Instalar o operdador de portas", variable = operador).place(x = 20, y = 380)
+
+fiacaocab = IntVar()
+Checkbutton(root, text = "Instalar e acabar a fiação da cabina", variable = fiacaocab).place(x = 20, y = 400)
+
+acabamento = IntVar()
+Checkbutton(root, text = "Fazer acabamento de toda a fiação", variable = acabamento).place(x = 20, y = 420)
+
+automatico = IntVar()
+Checkbutton(root, text = "Soltar o elevador em automático", variable = automatico).place(x = 20, y = 440)
+
+regulagem = IntVar()
+Checkbutton(root, text = "Regular o elevador", variable = regulagem).place(x = 20, y = 460)
+
+check = IntVar()
+Checkbutton(root, text = "Realizar a conferência pré SAIS", variable = check).place(x = 20, y = 480)
+
+sais = IntVar()
+Checkbutton(root, text = "Acompanhamento do SAIS", variable = sais).place(x = 20, y = 500)
+
+root.mainloop()
